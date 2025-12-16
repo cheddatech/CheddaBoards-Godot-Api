@@ -17,9 +17,7 @@ extends Node
 # CONFIGURATION - Set your API key here
 # ═══════════════════════════════════════════════════════════════════
 
-const API_BASE_URL = "https://cheddaboards.com/.netlify/functions/api"
-# Alternative (requires Netlify redirect):
-# const API_BASE_URL = "https://cheddaboards.com/api"
+const API_BASE_URL = "https://api.cheddaboards.com"
 
 var api_key: String = ""  # Set via set_api_key() or directly here
 
